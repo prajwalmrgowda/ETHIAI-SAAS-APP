@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/ETHIAI-SAAS-APP/static/css/main.daec7945.css",
-    "main.js": "/ETHIAI-SAAS-APP/static/js/main.c7326057.js",
+    "main.js": "/ETHIAI-SAAS-APP/static/js/main.7c726a60.js",
     "static/js/977.b584b783.chunk.js": "/ETHIAI-SAAS-APP/static/js/977.b584b783.chunk.js",
     "static/js/732.35ed01f5.chunk.js": "/ETHIAI-SAAS-APP/static/js/732.35ed01f5.chunk.js",
     "static/js/453.54292a4b.chunk.js": "/ETHIAI-SAAS-APP/static/js/453.54292a4b.chunk.js",
     "static/media/logo.png": "/ETHIAI-SAAS-APP/static/media/logo.505f3c17d2a15338403e.png",
     "index.html": "/ETHIAI-SAAS-APP/index.html",
     "main.daec7945.css.map": "/ETHIAI-SAAS-APP/static/css/main.daec7945.css.map",
-    "main.c7326057.js.map": "/ETHIAI-SAAS-APP/static/js/main.c7326057.js.map",
+    "main.7c726a60.js.map": "/ETHIAI-SAAS-APP/static/js/main.7c726a60.js.map",
     "977.b584b783.chunk.js.map": "/ETHIAI-SAAS-APP/static/js/977.b584b783.chunk.js.map",
     "732.35ed01f5.chunk.js.map": "/ETHIAI-SAAS-APP/static/js/732.35ed01f5.chunk.js.map",
     "453.54292a4b.chunk.js.map": "/ETHIAI-SAAS-APP/static/js/453.54292a4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.daec7945.css",
-    "static/js/main.c7326057.js"
+    "static/js/main.7c726a60.js"
   ]
 }
