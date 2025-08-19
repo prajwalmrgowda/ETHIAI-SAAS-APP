@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/static/css/main.daec7945.css",
+    "main.js": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/static/js/main.4816a824.js",
+    "static/js/977.b584b783.chunk.js": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/static/js/977.b584b783.chunk.js",
+    "static/js/732.35ed01f5.chunk.js": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/static/js/732.35ed01f5.chunk.js",
+    "static/js/453.54292a4b.chunk.js": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/static/js/453.54292a4b.chunk.js",
+    "static/media/logo.png": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/static/media/logo.505f3c17d2a15338403e.png",
+    "index.html": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/index.html",
+    "main.daec7945.css.map": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/static/css/main.daec7945.css.map",
+    "main.4816a824.js.map": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/static/js/main.4816a824.js.map",
+    "977.b584b783.chunk.js.map": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/static/js/977.b584b783.chunk.js.map",
+    "732.35ed01f5.chunk.js.map": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/static/js/732.35ed01f5.chunk.js.map",
+    "453.54292a4b.chunk.js.map": "/prajwalmrgowda/ETHIAI-SAAS-APP.git/static/js/453.54292a4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daec7945.css",
+    "static/js/main.4816a824.js"
+  ]
+}
