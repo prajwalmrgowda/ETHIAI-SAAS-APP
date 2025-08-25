@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/prajwalmrgowda/ETHIAI-SAAS-APP.git",
+  "homepage": "https://prajwalmrgowda.github.io/ETHIAI-SAAS-APP",
   "dependencies": {
     "@fingerprintjs/fingerprintjs": "^4.6.2",
     "@testing-library/dom": "^10.4.1",

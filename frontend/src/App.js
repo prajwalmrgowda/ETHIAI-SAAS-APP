@@ -1,6 +1,5 @@
-// App.jsx
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Assessment from "./pages/Assessment";
 import Disclaimer from "./pages/Disclaimer";
 import Evaluation from "./pages/Evaluation";
@@ -39,19 +38,17 @@ const Layout = ({ children }) => {
 
 function App() {
   return (
-    <Router>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Navigate to="/UserDetailsForm" />} />
-          <Route path="/assessment" element={<Assessment />} />
-          <Route path="/disclaimer" element={<Disclaimer />} />
-          <Route path="/evaluation" element={<Evaluation />} />
-          <Route path="/ThankYou" element={<ThankYou />} />
-          <Route path="/UserDetailsForm" element={<UserDetailsForm />} />
-          <Route path="/DownloadReport" element={<DownloadReport/>} />
-        </Routes>
-      </Layout>
-    </Router>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<Navigate to="/UserDetailsForm" />} />
+        <Route path="/assessment" element={<Assessment />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/evaluation" element={<Evaluation />} />
+        <Route path="/ThankYou" element={<ThankYou />} />
+        <Route path="/UserDetailsForm" element={<UserDetailsForm />} />
+        <Route path="/DownloadReport" element={<DownloadReport />} />
+      </Routes>
+    </Layout>
   );
 }
 

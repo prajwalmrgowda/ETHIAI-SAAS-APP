@@ -27,13 +27,13 @@ const quizData = [
     section: "High-Risk Classification",
     question: "Is your AI system primarily used within any of the following domains?",
     options: [
-      { number: 1, label: "Civil aviation safety or security", comment: "Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1 },
-      { number: 2, label: "Surveillance of motorcycles, mopeds, or quadricycles",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1 },
-      { number: 3, label: "Surveillance of agricultural or forestry machinery",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1 },
-      { number: 4, label: "Marine equipment monitoring",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1},
-      { number: 5, label: "Railway system interoperability or safety",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1 },
-      { number: 6, label: "Surveillance of motorcycles, mopeds, or quadricycles",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1},
-      { number: 7, label: "Civil aviation equipment or systems",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1},
+      { number: 1, label: "Civil aviation safety or security", comment: "Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1,jumpToId:8 },
+      { number: 2, label: "Surveillance of motorcycles, mopeds, or quadricycles",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1,jumpToId:8 },
+      { number: 3, label: "Surveillance of agricultural or forestry machinery",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1,jumpToId:8 },
+      { number: 4, label: "Marine equipment monitoring",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1,jumpToId:8 },
+      { number: 5, label: "Railway system interoperability or safety",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1,jumpToId:8  },
+      { number: 6, label: "Surveillance of motorcycles, mopeds, or quadricycles",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1,jumpToId:8 },
+      { number: 7, label: "Civil aviation equipment or systems",comment:"Based on your selection, your AI system may be considered high-risk under the EU AI Act as it relates to a product or system covered by Union harmonisation legislation listed in Annex I Section B.", riskScore: 1,jumpToId:8 },
       { number: 8, label: "None of the above ", riskScore: 0 },
  
     ]
@@ -63,8 +63,8 @@ const quizData = [
     section: "High-Risk Classification",
     question: "Did your AI system or its hosting undergo an evaluation or certification by an external conformity body before it is placed on the market?",
     options: [
-      { number: 1, label: "Yes", riskScore: 0 },
-      { number: 2, label: "No", comment: "If your AI system or its hosting has not undergone third-party conformity assessment when required, it may be deemed non-compliant with the EU AI Act. This could prevent it from being legally placed on the EU market, and regulatory bodies may block or withdraw its deployment. Ensure compliance to avoid legal and market risks.", riskScore: 1 },
+      { number: 1, label: "Yes", riskScore: 0 ,jumpToId:8 },
+      { number: 2, label: "No", comment: "If your AI system or its hosting has not undergone third-party conformity assessment when required, it may be deemed non-compliant with the EU AI Act. This could prevent it from being legally placed on the EU market, and regulatory bodies may block or withdraw its deployment. Ensure compliance to avoid legal and market risks.", riskScore: 1,jumpToId:8  },
     ]
   },
   {
