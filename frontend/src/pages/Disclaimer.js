@@ -34,10 +34,10 @@ export default function Disclaimer() {
           </p>
           <ul className="list-disc pl-5 mb-4 text-[20px] text-white space-y-2">
             <li>
-              This assessment focuses on the first phase of the EU AI Act implementation, specifically covering Rules on Subject Matter, Scope, Definitions, AI literacy, and Prohibited AI Practices, which come into effect on 2nd February 2025.
+              This assessment currently provides coverage of the initial areas of the EU AI Act, including Subject Matter, Scope, Definitions, AI literacy, Prohibited AI Practices, GPAI models, High-Risk AI Systems, and their Requirements.
             </li>
             <li>
-              These assessments evaluate only Prohibited AI System practices based on your selection.
+              At this stage, the assessment is designed to offer a preliminary evaluation of AI systems based on the inputs you provide and give you an overall look at our product.
             </li>
             <li>
               Examples provided in the assessment are for general understanding only and do not reference any specific person, organization, or brand.
